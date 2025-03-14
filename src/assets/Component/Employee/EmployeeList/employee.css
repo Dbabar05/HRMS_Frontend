@@ -1,0 +1,266 @@
+.titleE
+{
+    /* background-color: blueviolet; */
+    margin-top: 10px;
+}
+
+.titleE h1{
+    margin-left: 320px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.breadcrumb {
+    margin-left: 320px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+  }
+  
+  .breadcrumb li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .breadcrumb-link {
+    text-decoration: none;
+    color: gray;
+  }
+  
+  .breadcrumb-link:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  
+  .breadcrumb-separator {
+    margin: 0 8px;
+    color: black;
+  }
+  
+  .breadcrumb-current {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .home-icon {
+    font-size: 20px;
+    color: black;
+  }
+
+
+  /* Right Section: Buttons */
+.breadcrumb-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  /* Export Button */
+  .export-btn {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background: white;
+    border: 1px solid black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 600px;
+  }
+  
+  .export-btn .icon {
+    margin-right: 5px;
+
+  }
+  
+  .dropdown-icon {
+    margin-left: 5px;
+    
+  }
+  
+  .add-employee-btn {
+    display: flex;
+    align-items: center;
+    background: orange;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    margin-left: 25px;
+  }
+  
+  .add-employee-btn .icon {
+    margin-right: 5px;
+  }
+
+  .infoE
+  {
+    margin-left: 300px;
+  }
+.employee-stats {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    /* gap: 45px; */
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  /* Individual Card */
+  .stat-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+  }
+  
+  /* Icon Styling */
+  .icon {
+    background: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  
+  /* Title and Count */
+  h4 {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 2px 0 0;
+  }
+  
+  .employee-table-container {
+    width: 74%;
+
+    position: absolute;
+    left: 22%;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Filters Section */
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .filter-input, .filter-dropdown {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Table Styling */
+  .employee-table {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+  }
+  
+  .table-header, .table-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-header {
+    font-weight: bold;
+    background: #f8f8f8;
+  }
+  
+  .table-row:hover {
+    background: #f0f0f0;
+  }
+  
+  .employee-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profile-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+  
+  .status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .status.active {
+    background: #22c55e;
+    color: white;
+  }
+  
+  /* Actions */
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-icon, .delete-icon {
+    cursor: pointer;
+    color: gray;
+  }
+  
+  .edit-icon:hover {
+    color: #007bff;
+  }
+  
+  .delete-icon:hover {
+    color: red;
+  }
+  
+  /* Pagination */
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+  }
+  
+  .page-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 5px;
+  }
+  
+  .active-page {
+    background: orange;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+  }
+  

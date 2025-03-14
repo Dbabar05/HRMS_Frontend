@@ -1,0 +1,145 @@
+body{
+    background-color: #F5F5F5;
+}
+
+.header{
+    width: 100%;
+    /* margin-left: 22%; */
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 15px rgba(0 0 0/ 20%);
+
+}
+
+/* Search Box */
+.search-box {
+    width: 280px;
+    margin-left: 25%;
+    margin-top: 15px;
+    height: 35px;
+    background: #f5f5f5;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+}
+
+
+.search-box input {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 14px;
+    width: 200px;
+    
+}
+
+
+.search-icon {
+    color: rgba(0, 0, 0, 0.56);
+    cursor: pointer;
+    margin-left: 40px;
+    background: transparent;
+}
+
+/* Notification Icon */
+
+.bell-icon {
+  
+    color: black;
+    /* margin-left: 900px; */
+    font-size: 35px !important;
+    margin-top: 8px;
+}
+
+
+
+/* User Profile */
+.user-profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info {
+    width: 115px;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.username {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.status {
+    color: rgb(0, 0, 0);
+    /* display: flex; */
+    align-items: center;
+    font-weight: bold;
+}
+
+.status-indicator {
+    width: 8px;
+    height: 8px;
+    background: rgb(3, 255, 3);
+    border-radius: 50%;
+    margin-right: 5px;
+    
+}
+
+.dropdown-icon {
+    color: rgb(100, 100, 100);
+    /* margin-top: 20px; */
+    /* margin-left: 60px; */
+    font-size: 30px !important ;
+}
+
+
+/* Sidebar */
+.sidebar{
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 800px;
+    border-right: 2px solid rgba(0, 0, 0, 0.108);
+    position: absolute;
+    top: 0;
+}
+
+.sidebar h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(252, 117, 21);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sidebar .menu-title
+{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.sidebar .dash
+{
+     font-size: 15px;
+     margin-left: 15px;
+     font-weight: 500;
+     width: 150px;
+}
+
+.sidebar ul li{
+    margin-left: 10px;
+}
+.sidebar ul li img{
+    width: 22px;
+    height: 22px;
+}
