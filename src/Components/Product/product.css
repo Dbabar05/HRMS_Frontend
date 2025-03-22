@@ -1,0 +1,135 @@
+.productContainer{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.182);
+    overflow: hidden;
+    border-radius: 15px ;
+}
+
+.productContainer .img-warpper{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.productContainer .img-warpper img{
+
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+    /* background-color: aqua; */
+}
+
+.productContainer:hover .img-warpper img{
+    transform: scale(1.1);
+    background-color: rgba(148, 148, 148, 0.167);
+}
+
+.productContainer .img-warpper .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.productContainer:hover .img-warpper .overlay{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.productContainer .img-warpper .overlay ul{
+    background-color: white;
+    width: 83px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.266) ;
+    
+}
+
+.productContainer .img-warpper .overlay ul li{
+    margin: 0 !important;
+    
+}
+.productContainer .img-warpper .overlay ul li a{
+    padding: 5px 10px;
+    display: block;
+   
+}
+.productContainer .img-warpper .overlay ul li a svg{
+    width: 20px;
+    height: 20px;
+    opacity: 0.6;
+}
+
+
+.productContainer .info{
+    margin: 10px 15px;
+}
+
+.productContainer .caterogry{
+    color: black;
+    opacity: 0.7;
+    font-size: 14px;
+    
+}
+
+.productContainer .title{
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.productContainer .brand{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.productContainer .info{
+    margin-bottom: 10px;
+}
+
+.productContainer .info .price{
+   font-weight: 600;
+   font-size: 18px;
+}
+
+.productContainer .info .oldprice{
+    text-decoration: line-through;
+    font-size: 14px;
+    opacity: 0.7;
+ }
+.productContainer .info .capTap{
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    border-radius:10px;
+    color: #000000;
+    font-size: 18px;
+    transition: all 0.1s ease-in-out;
+    background-color: #266dc7 !important;
+    color: white !important;
+    text-transform: capitalize !important;
+    padding: 5px 10px;
+}
+
+.productContainer:hover{
+    box-shadow: 5px 5px 15px rgba(0 0 0/ 40%);
+}
+
+.css-1eex93v-MuiTooltip-tooltip {
+    background:linear-gradient(180deg, rgba(82,96,213,1) 0%, rgba(38,109,199,1) 81%) !important;
+    border-radius: 5px;
+    color: #ffffff !important;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    padding: 4px 8px;
+    font-size: 0.6875rem;
+    max-width: 300px;
+    margin: 2px;
+    word-wrap: break-word;
+    font-weight: 500;
+    position: relative;
+    margin: 0;
+}

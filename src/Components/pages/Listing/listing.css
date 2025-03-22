@@ -1,0 +1,86 @@
+.listing-page{
+    width: 100%;
+    height: auto;
+    padding: 45px 0;
+}
+
+.breadcrumb{
+
+    width: 100%;
+    height: auto;
+    background-color:#89aee8  ;
+    padding: 25px 45px;
+    border-radius: 25px;
+
+}
+
+.breadcrumb h2{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.breadcrumb ul li{
+   
+    margin-right: 15px !important;
+    
+}
+.breadcrumb ul li a{
+   
+    font-size: 18px;
+}
+
+.listing-page .listing-data .sidebarwrapper{
+    width: 300px;
+    height: 903px;
+    /* margin-right: 10px; */
+    background: #f5f0f0;
+    border-radius: 15px;
+
+}
+
+.listing-page .listing-data .homeProduct{
+    width: 80%;
+}
+
+.listing-page .listing-data .homeProduct h5{
+    font-size: 18px;
+    margin: 10px 0 15px 15px;
+    color:rgba(0, 0, 0, 0.559) ;
+}
+.listing-page .listing-data .homeProduct h5 span{
+    color:rgb(8, 49, 255) ;
+}
+.listing-page .listing-data .homeProduct .item{
+    width: 300px;
+}
+
+.listing-page .listing-data .homeProduct .tab_{
+    width: 200px;
+    position: relative;
+}
+
+.listing-page .listing-data .homeProduct .tab_ .btn_{
+    width: 100%;
+    font-size: 15px;
+    border-radius: 10px;
+    background: none;
+    border: 1px solid rgba(0, 0, 0, 0.177);
+    text-transform: capitalize !important;
+    padding: 7px 20px;
+    color: black;
+    
+}
+
+.listing-page .listing-data .homeProduct .tab_ .btn_  svg{
+   opacity: 0.7;
+    width: 20px;
+    height: 20px;
+}
+.listing-page .listing-data .homeProduct .tab_ .dropmenu{
+    top:105%;
+    width: 200px;
+    text-align: center;
+}
+.listing-page .listing-data .homeProduct .tab_ .dropmenu li{
+    padding: 0 20px;
+}
+

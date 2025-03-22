@@ -1,0 +1,146 @@
+.loginWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    margin-top: 3%;
+  }
+  
+  .login-card {
+    display: flex;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0 0 0/ 40%); 
+    overflow: hidden;
+    width: 80%;
+    max-width: 900px;
+  }
+  
+  .left-section {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    padding: 40px;
+    position: relative;
+
+    flex: 1;
+  }
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    pointer-events: none; /* Allows clicks to pass through the overlay */
+    background-image: url('../../Images/signin-background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .left-section h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  
+  .left-section p {
+    font-size: 14px;
+  }
+  
+  .illustration {
+    margin-top: 20px;
+    width: 150px;
+  }
+  
+  .right-section {
+    padding: 40px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .right-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .right-section h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .right-section p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f5f7f9;
+  }
+  
+  .forgot-password {
+    display: block;
+    text-align: right;
+    margin-bottom: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login {
+    width: 100%;
+    padding: 12px 10px !important;
+    background: #007bff !important;
+    color: white !important;
+    border: none;
+    border-radius: 8px !important;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .login:hover{
+    background-color: #000 !important;
+  }
+  
+  .or-login {
+    margin: 20px 0;
+    color: #999;
+  }
+  
+  .social-buttons button {
+    width: 48%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #000;
+    text-transform: capitalize;
+  }
+  .social-buttons button .social-icon{
+    margin: 0 5px;
+  }
+
+
+  .google-btn {
+    background: #fff;
+  }
+  
+  .facebook-btn {
+    background: #fff;
+  }
+  
+  .signup-link {
+    margin-top: 20px;
+  }
+  
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  

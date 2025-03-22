@@ -1,0 +1,188 @@
+.CartSection{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+}
+.CartSection p{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0 5px 5px;
+    color:rgb(0, 0, 0) ;
+}
+.CartSection p span{
+    color:rgb(8, 49, 255) ;
+    
+}
+
+.CartSection .clearCart{
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.578);
+    cursor: pointer;
+}
+
+.CartSection .clearCart svg{
+    font-size: 25px !important;
+}
+
+
+.cartWrapper table{
+    --bs-table-bg:none !important;
+    --bs-table-border-color:rgba(0, 0, 0, 0.211) !important;
+    /* border-color: transparent !important;  */
+}
+.cartWrapper table thead{
+    background-color: #000000 !important;
+    overflow: hidden;
+    vertical-align:middle;
+    
+   
+
+}
+
+.cartWrapper table thead th:first-child{
+    border-top-left-radius: 15px;
+    /* border-bottom-left-radius: 15px; */
+}
+.cartWrapper table thead th:last-child{
+    border-top-right-radius: 15px;
+    /* border-bottom-right-radius: 15px; */
+}
+
+.cartWrapper table thead th{
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-align:start;
+    
+}
+.cartWrapper table tbody td{
+
+    vertical-align: middle;
+    padding: 15px 16px;
+    
+}
+.cartWrapper table tbody td .img{
+
+    width: 120px;
+    height: 110px;
+    padding: 12px ;
+    border: 1px solid rgba(0, 0, 0, 0.241);
+    border-radius: 15px;
+}
+.cartWrapper table tbody td .img img{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.product-info h5{
+    font-size: 18px;
+}
+
+
+.cartWrapper table tbody td .unit-price{
+    font-size: 20px;
+}
+
+
+.text-blue{
+    color: rgba(0, 0, 255, 0.629);
+    font-weight: 600;
+}
+
+.cartWrapper table tbody td .countSection{
+    width: 70px;
+    height: 55px;
+    border: 1px solid rgba(0, 0, 0, 0.245);
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+}
+
+.cartWrapper table tbody td button{
+   
+    color: #2b6bc8 !important;
+    font-size: 28px !important;
+    width: 45px;
+    height: 40px !important;
+    border-radius: 15px;
+   
+}
+
+
+.cartWrapper table tbody td input{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    border: 0px;
+    outline: none;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cartWrapper table tbody td .countSection .arrow{
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.cartWrapper table tbody td .countSection .arrow svg{
+    font-size: 22px;
+}
+
+.cartWrapper table tbody td .countSection .arrow.up{
+    top: 2px;
+    right:5px;
+}
+.cartWrapper table tbody td .countSection .arrow.down{
+    bottom: 2px;
+    right:5px;
+}
+
+.totalAmount-block{
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+.textFont{
+    font-size:16px;
+    margin:0 ;
+    padding: 5px 0;
+    
+}
+
+.special-button{
+    background-color: #2b6bc8 !important;
+    color: white !important;
+    font-size: 18px !important;
+    padding: 8px 20px !important;
+    margin-top: 10px;
+    height: 45px;
+    border-radius: 15px;
+    text-transform: capitalize !important;
+    text-align: center;
+
+}
+
+
+.special-button:hover{
+
+    background-color: #000000 !important;
+        color: white !important;
+
+}

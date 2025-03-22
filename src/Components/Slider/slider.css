@@ -1,0 +1,140 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
+
+
+.homeslider{
+    padding: 25px 0;
+    background:#f5f0f0;
+}
+.slidercontainer {
+
+    width: 95%;
+    height: auto;
+    justify-content: space-around;
+    padding: 10px 15px;
+    border-radius: 20px;
+
+}
+
+.sliderbox{
+    width: 68%;
+    height: 490px;
+    border-radius: 20px;
+   
+   
+}
+
+.home_slider_main{
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+
+.home_slider_main .item img{
+    height: 490px;
+    
+
+}
+
+.slick-arrow{
+    position: absolute;
+    border-radius: 20px;
+    top: 53%;
+    width: 30px;
+    height: 30px;
+    background:#F2F3F4 !important;
+    transition: all 0.2s ease-in-out;
+    z-index: 1000;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+}
+
+.slick-next {
+    right: 25px;
+    
+}
+.slick-prev {
+    left : 25px;
+}
+
+.slick-prev:before{
+    content: "\f104" !important;
+    font-family: FontAwesome;
+    font-size: 15px;
+    color: black !important;
+
+}
+.slick-next:before{
+    content: "\f105" !important;
+    font-family: FontAwesome;
+    font-size: 15px;
+    color: black !important;
+
+}
+.slick-arrow:hover{
+    background-color: #2b6bc8 !important;
+}
+
+.slick-arrow:hover::before{
+    color: white !important;   
+}
+
+.slick-dots{
+    display: block;
+    position: absolute;
+    bottom: 15px;
+}
+
+.slick-dots li button:before{
+    font-size: 15px;
+}
+
+.slick-dots li.slick-active button:before{
+    color: blue;
+}
+.slick-dots li button::before{
+    color: rgb(97, 97, 97);
+    opacity: 1;
+}
+
+
+.home_slider_main .item{
+    position: relative;
+}
+.home_slider_main .item .info_text1{
+    position: absolute;
+    top: 30%;
+    right: 6%;
+    z-index: 100;
+}
+
+.box{
+    position: relative;
+}
+
+.slidercontainer .norbox .box .imagewapper{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+
+}
+.slidercontainer .norbox .box img{
+    transition: all 0.5s ease;
+}
+
+.slidercontainer .norbox .box .imagewapper:hover img{
+    transform: scale(1.1);
+}
+
+.box .info_text2{
+    position: absolute;
+    top: 22%;
+    left: 10%;
+}
+.box .info_text3{
+    position: absolute;
+    top: 25%;
+    right: 7%;
+}

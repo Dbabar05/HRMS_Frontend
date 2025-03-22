@@ -1,0 +1,352 @@
+
+
+.breadcrumb-wrapper{
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.155);
+}
+
+.breadcrumb-wrapper .breadcrumb2{
+
+    background: none !important;
+    padding: 10px 25px !important;
+    margin: 0;
+}
+.breadcrumb-wrapper .breadcrumb2 li{
+    margin-right: 15px !important;
+    font-size: 18px;
+
+
+}
+.breadcrumb-wrapper .breadcrumb2 li a{ 
+    font-size: 18px;
+}
+.breadcrumb-wrapper .breadcrumb2 li a:hover{ 
+   color: #266dc7;
+}
+
+.detailProductView .price{
+    color: rgba(0, 0, 255, 0.629);
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.text-org {
+    color: #faaf00 !important;
+    font-size: 20px;
+}
+
+
+.detailProductView .productInfo .oldprice{
+    text-decoration: line-through;
+    opacity: 0.7;
+    font-size: 25px;
+
+}
+
+.detailProductView .productInfo .product-desc{
+    font-size: 16px;
+    margin-top: 18px;
+}
+
+
+.detailProductView .detailsContainer {
+    margin: auto;
+    max-width: 85% !important;
+    padding: 40px 0;
+}
+
+.detailProductView .productZoom {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 15px;
+    height: 450px;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.detailProductView .productZoom .iiz__img {
+    max-width: 100%;
+    height: 100%;
+    display: block;
+    pointer-events: none;
+    visibility: visible;
+    opacity: 1;
+    padding: 40px;
+}
+
+.catSliderSection{
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+}
+
+.catSliderSection .zoomSlider{
+    width: 500px !important;
+}
+
+.zoomSlider .slick-slide{
+    padding-right: 10px;
+    width: 100px !important;
+}
+
+
+.zoomSlider .catitem{
+    border-radius: 10px;
+    cursor: pointer;
+    height: 90px;   
+    overflow: hidden;
+    padding: 3px;
+    border: 1px solid #000000 !important;
+
+}
+
+.zoomSlider .catitem img{
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover !important;
+    border-radius: 10px;
+
+}
+
+.detailsContainer .productSpec .specButton{
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    color: #000000;
+    font-size: 15px;
+    transition: all 0.1s ease-in-out;
+}
+.detailsContainer .productSpec .specButton:hover{
+   background-color: rgba(230, 229, 228, 0.533);
+}
+
+
+.detailsContainer .productSpec .specActive{
+    background-color: #266dc7;
+    color: white;
+}
+
+.detailsContainer .productSpec .specActive:hover{
+    background-color: #266dc7;
+    color: white;
+ }
+ .quantityDrop {
+    gap: 15px;
+    width: 150px;
+}
+.quantityDrop button{
+    background: #edeef5 !important;
+    border: 1px solid rgba(0, 0, 0, .1) !important;
+    border-radius: 50% !important;
+    color: #000;
+    height: 40px !important;
+    min-width: 40px !important;
+    width: 40px !important;
+}
+.quantityDrop input {
+    background: transparent;
+    border: 0;
+    outline: none !important;
+    text-align: center;
+    width: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.AddTOCart .cartButton{
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    color: #000000;
+    font-size: 15px;
+    transition: all 0.1s ease-in-out;
+    background-color: #266dc7;
+    color: white;
+    text-transform: capitalize;
+}
+.AddTOCart .cartButton:hover{
+
+    background-color: #000000;
+    color: white;
+}
+.AddTOCart .wishButton{
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    color: #000000;
+    font-size: 15px;
+    transition: all 0.1s ease-in-out;
+
+}
+
+
+.detailPageTab{
+
+    border-radius: 15px;
+    width: 85%;
+    margin: auto;
+}
+
+
+.detailPageTab ul li .tabsButtons{
+    text-transform: capitalize;
+    color: #000;
+    font-size: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.204);
+    border-radius: 25px;
+    margin-right: 25px;
+    padding: 10px 16px;
+    font-weight: 500;
+
+}
+
+.detailPageTab ul li  .tabActive{
+  color: #266dc7;
+  border: 1px solid #266dc7;
+
+
+}
+
+
+.reviewCard{
+    margin-bottom: 15px;
+}
+.reviewBox{
+    display: flex;
+    flex-direction: row;
+
+}
+.reviewCard .ratingbox{
+    min-width: 40px;
+    line-height: normal;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 4px 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 14px;
+    vertical-align: middle;
+    background-color:#266dc7;
+    margin-right: 10px;
+}
+
+.reviewCard svg{
+    width: 18px !important;
+    height: 18px !important;
+}
+
+
+.reviewCard .ratingtitle{
+    font-weight: 600;
+}
+
+.reviewCard .customerName{
+   font-weight: 500;
+}
+.reviewCard .customerDetails{
+    font-size: 14px;
+    color: #878787;
+    margin-right: 8px;
+}
+
+.reviewButton{
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    color: #000000;
+    font-size: 15px;
+    transition: all 0.1s ease-in-out;
+    background-color: #266dc7 !important;
+    color: white !important;
+    text-transform: capitalize !important;
+}
+.reviewButton:hover{
+    
+    background-color: #000000 !important;
+    color: white !important;
+
+}
+
+.reviewfrom .ratingValue svg{
+    width: 32px !important;
+    height: 40px !important;
+}
+
+.reviewfrom .form-group{
+    margin-bottom: 15px;
+}
+.reviewfrom .form-group .form-control{
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px !important;
+    border: 1px solid rgba(0, 0, 0, 0.221);
+}
+.reviewfrom .form-group textarea.form-control{
+    height: 100px;
+}
+
+.reviewfrom button{
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    border-radius:12px;
+    color: #000000;
+    font-size: 18px;
+    transition: all 0.1s ease-in-out;
+    background-color: #266dc7 !important;
+    color: white !important;
+    text-transform: capitalize !important;
+    margin-top: 15px;
+    padding: 5px 10px;
+}
+
+.reviewfrom button:hover{
+    
+    background-color: #000000 !important;
+    color: white !important;
+
+}
+.ratingCard{
+
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.305) !important;
+}
+.ratingCard .TotalRating{
+    font-size: 30px;
+    width: 80px;
+    margin-right: 10px;
+}
+
+.TotalRating p svg{
+    width: 32px !important;
+    height: 40px !important;
+}
+.ratingCard .ratingStar svg{
+    width: 17px !important;
+    height: 17px !important;
+    color: #000000d3;
+}
+
+.relatedProduct-wrapper{
+    /* background-color: #f5f0f0; */
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 5%;
+
+}
+
+.relatedProduct{
+    width: 95%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    
+}
+.relatedProduct .prodSlider{
+
+    width: 100%;
+}
+.relatedProduct .item{
+    width: 100% !important;
+    padding: 15px 10px;
+
+    /* padding-right: 25px !important; */
+}
+
+
+

@@ -1,0 +1,33 @@
+.service{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    /* margin-top: 80px; */
+
+}
+
+.service .item{
+    width: 20%;
+    /* background-color: aquamarine; */
+    margin: 0 10px;
+    padding: 0 10px;
+}
+.service .item .img-wrapper{
+    margin: auto;
+    width: 30%;
+}
+/* .service .item .img-wrapper img{
+    width: 100%;
+} */
+
+.service .item .info-text{
+    text-align: center;
+}
+.service .item .info-text p{
+    margin: 10px;
+    font-weight: 500;
+}
+.service .item .info-text span{
+  
+    opacity: 0.7;
+}
